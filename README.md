@@ -2,7 +2,7 @@
 
 This is the Fikisha logistis repo.
 
-### Prerequisites
+# Prerequisites
 
 This project needs the following:
 
@@ -10,17 +10,19 @@ This project needs the following:
 - Laravel 9.x
 
 
-### Installing
+# Installing
 After cloning, running the commands below
 ```
 composer install
 ```
+```
 npm install
+```
 ```
 npm run dev
 ```
 
-## Configure the environment(.env)
+# Configure the environment(.env)
 Configure the evironment by setting the details below.
 ```
 cp .env.example .env
@@ -37,8 +39,7 @@ DB_PASSWORD=
 php artisan migrate:fresh --seed
 
 ```
-# Run Migration and seeders
-Clear Cache
+- Clear application Cache by running below command
 ```
 php artisan optimize:clear
 ```
@@ -46,7 +47,7 @@ php artisan optimize:clear
 **Username: admin@fikisha.com**
 **Password: 12345678@**
 
-## Test Credentials
+## Demo
 Demo: <a href="https://fikisha.sasamonitor.com"> Demo Here </a>
 
 
