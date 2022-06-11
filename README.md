@@ -1,5 +1,3 @@
-<p align="center" style="background-color:#BA0C2F; padding:1rem 0"><img src="https://jubileeinsurance.com/ke/wp-content/themes/_ji/v2/img/logo.png" width="400"></p>
-
 # Fikisha Logistics
 
 This is the Fikisha logistis repo.
@@ -13,8 +11,46 @@ This project needs the following:
 
 
 ### Installing
-_Composer Dependancies_
-Compare & Update your composer file dependancies with the ones in the root folder of this project
+After cloning, running the commands below
 ```
 composer install
 ```
+npm install
+```
+npm run dev
+```
+
+## Configure the environment(.env)
+Configure the evironment by setting the details below.
+```
+cp .env.example .env
+```
+Add database credentials
+```
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+```
+
+## Run Migration and seeders
+```
+php artisan migrate:fresh --seed
+
+```
+# Run Migration and seeders
+Clear Cache
+```
+php artisan optimize:clear
+```
+## Test Credentials
+**Username: admin@fikisha.com**
+**Password: 12345678@**
+
+## Test Credentials
+Demo: <a href="https://fikisha.sasamonitor.com"> Demo Here </a>
+
+
+/*==================+
+Happy Coding
+/*====================+
+
