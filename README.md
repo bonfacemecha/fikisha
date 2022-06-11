@@ -27,7 +27,7 @@ Configure the evironment by setting the details below.
 ```
 cp .env.example .env
 ```
-Add database credentials
+Add database and email credentials 
 ```
 DB_DATABASE=
 DB_USERNAME=
@@ -45,6 +45,7 @@ php artisan optimize:clear
 ```
 ## Test Credentials
 **Username: admin@fikisha.com**
+
 **Password: 12345678@**
 
 ## Demo
